@@ -1,3 +1,5 @@
+properties([parameters([string(description: 'enter your name here', name: 'Name'), string(description: 'enter your age here', name: 'Age'), choice(choices: ['Male', 'Female', 'Transgender'], description: 'Choose your gender here', name: 'Gender')])])
+
 pipeline{
 
 agent any
